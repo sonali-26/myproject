@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(229, 226, 226);
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em 4em;
+    font-size: 1rem;
+}
+.nav_logo p{
+    color: rgb(36, 6, 63);
+    font-size: 3em;
+    font-weight: 800;
+
+}
+.nav_item{
+    font-size: 1.6em;
+    font-weight: 500;
+    color: rgb(112, 73, 146);
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.nav_item:hover{
+    color: rgb(25, 4, 44);;
+}
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+    box-shadow: rgba(0,0,0,0.24)0px 3px 8px ; 
+    border-radius: 1em;
+}
+.v{
+    font-size: 1rem;
+    margin: 15vh 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.v_image{
+    width: 100%;
+    border-radius: 1em;
+}
+.v_text{
+    margin-left: 3em;
+}
+.one{
+    font-size: 6em;
+    font-weight: 500;
+    margin-bottom: 20px;
+    line-height: 1.3em;
+    color: rgb(70, 4, 70);
+
+} 
+.two{
+    font-size: 4em;
+    font-weight: 400;
+    color: rgb(92, 14, 92);
+}
+
+.v_information{
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    color: rgb(148, 62, 148);
+}
